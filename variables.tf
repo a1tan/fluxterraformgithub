@@ -10,7 +10,7 @@ variable "github_token" {
 
 variable "repository_name" {
   type        = string
-  default     = "test-provider"
+  default     = "fluxterraform"
   description = "github repository name"
 }
 
@@ -28,6 +28,6 @@ variable "branch" {
 
 variable "target_path" {
   type        = string
-  default     = "staging-cluster"
+  default     = "cluster/dev"
   description = "flux sync target path"
 }
